@@ -1,0 +1,19 @@
+//$body-bg: #000;
+//$body-color: #111;
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+//@import '../../node_modules/bootstrap-vue/src/index.scss';
+.table{
+    background-color: pink;
+    border-spacing: 10px;
+    th{
+        text-align: center;
+        border-bottom-width:0 !important;
+        padding-top: 16px;
+        i{
+            display: flex;
+            height: 100%;
+            align-items: center;
+        }
+    }
+}
